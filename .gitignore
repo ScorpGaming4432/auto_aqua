@@ -49,3 +49,6 @@ build/
 # Wokwi files
 diagram.json
 wokwi.toml
+
+# gitignore
+.gitignore
