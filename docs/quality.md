@@ -22,16 +22,16 @@ clang-format --dry-run --Werror appstate.cpp pumps.cpp
 
 ## Static analysis check
 
-Run clang-tidy using compile commands from `build/compile_commands.json`:
+Run clang-tidy using compile commands from the repository-root `compile_commands.json`:
 
 ```bash
-clang-tidy -p build <files>
+clang-tidy -p . <files>
 ```
 
 Example:
 
 ```bash
-clang-tidy -p build appstate.cpp pumps.cpp
+clang-tidy -p . appstate.cpp pumps.cpp
 ```
 
 ## Notes
